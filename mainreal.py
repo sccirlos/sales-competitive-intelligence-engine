@@ -317,6 +317,40 @@ EVIDENCE REQUIREMENTS:
             print(f"Error researching competitor intel for {name}: {e}")
             return {}
 
+    # add storage helpers
+    def save_competitor_intel(
+        self,
+        competitor_name: str,
+        intel: Dict[str, Any],
+    ) -> None:
+        """
+        Save competitor intelligence to both:
+        - latest/<competitor>.json
+        - history/<date>/<competitor>.json
+        """
+
+        base_dir = "intel"
+        latest_dir = os.path.join(base_dir, "latest")
+        history_dir = os.path.join(base_dir, "history", self.date_str)
+
+        os.makedirs(latest_dir, exist_ok=True)
+        os.makedirs(history_dir, exist_ok=True)
+
+        filename = f"{competitor_name.lower()}_intel.json"
+
+        latest_path = os.path.join(latest_dir, filename)
+        history_path = os.path.join(history_dir, filename)
+
+        with open(latest_path, "w") as f:
+            json.dump(intel, f, indent=2)
+
+        with open(history_path, "w") as f:
+            json.dump(intel, f, indent=2)
+
+        print(f"Latest intel saved to {latest_path}")
+        print(f"Historical intel saved to {history_path}")
+
+
 
     async def run_detailed_comparison(self, competitor_name: str, competitor_url: str):
         print(f"\n--- Running Detailed Comparison: SimplePractice vs {competitor_name} ---")
@@ -363,7 +397,7 @@ EVIDENCE REQUIREMENTS:
         Load the most recently stored competitor intelligence for a competitor.
         """
         intel_file = (
-            f"{self.output_dir}/intel/"
+            f"intel/latest/"
             f"{competitor_name.lower()}_intel.json"
         )
 
@@ -378,7 +412,7 @@ EVIDENCE REQUIREMENTS:
             with open(intel_file, "r") as f:
                 intel = json.load(f)
 
-            print(f"Loaded stored competitor intel from {intel_file}")
+            print(f"Loaded latest competitor intel from {intel_file}")
             return intel
 
         except (OSError, json.JSONDecodeError) as e:
@@ -728,15 +762,11 @@ def run_competitor_intel_research(name: str, url: str):
         scraper.research_competitor_intel(name, url)
     )
 
-    output_dir = f"outputs/{datetime.now().strftime('%Y-%m-%d')}/intel"
-    os.makedirs(output_dir, exist_ok=True)
-
-    output_path = f"{output_dir}/{name.lower()}_intel.json"
-
-    with open(output_path, "w") as f:
-        json.dump(data, f, indent=2)
-
-    print(f"\nCompetitor intel saved to {output_path}")
+    if data:
+        scraper.save_competitor_intel(
+            name,
+            data,
+        )
 
     return data
 
@@ -757,11 +787,36 @@ if __name__ == "__main__":
         nargs="+",
         help="Generate sales battlecards (e.g., --battlecard Jane TherapyNotes)",
     )
+    parser.add_argument(
+        "--intel",
+        type=str,
+        help="Research and store structured competitor intelligence (e.g., --intel Jane)",
+    ) 
+
     args = parser.parse_args()
+
+    if args.intel:
+        competitor_name = args.intel
+
+        if competitor_name not in COMPETITORS:
+            print(
+                f"Error: Competitor '{competitor_name}' "
+                "not found in configuration."
+            )
+            print(
+            f"Available competitors: {', '.join(COMPETITORS.keys())}"
+        )
+        else:
+            run_competitor_intel_research(
+                competitor_name,
+                COMPETITORS[competitor_name],
+            )
+        exit()
 
     scraper = DeepCompScraper(
         target_competitor=args.competitor,
         compare_targets=args.compare,
         battlecard_targets=args.battlecard,
     )
+    
     asyncio.run(scraper.run())

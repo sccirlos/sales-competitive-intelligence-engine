@@ -1,0 +1,811 @@
+{
+  "competitor_name": "Jane App",
+  "competitor_url": "https://jane.app/",
+  "company_overview": "Jane App is a cloud-based, all-in-one practice management and EMR platform founded in 2012 by Alison Taylor (Co-CEO, clinical owner) and Trevor Johnston (Co-CEO, Lead Developer) in North Vancouver, British Columbia, Canada. The company serves allied health and wellness practices worldwide with approximately 600 employees and $157.5M in annual revenue. Jane has been profitable every month since inception and received private equity investment from Arthur Ventures and JMI Equity, but never raised traditional venture capital. The company's mission is \"Helping the Helpers\" - supporting small healthcare business owners with delightful, powerful practice management tools.",
+  "market_positioning": "Jane positions itself as the practice management solution built for multi-disciplinary allied health and wellness clinics. Key differentiators include: (1) Beautiful, intuitive design that respects clinic branding, (2) Flexibility across multiple specialties rather than being specialty-specific, (3) Exceptional customer support with 6-day-a-week availability, (4) Canadian-built with strong international presence, (5) All-in-one platform eliminating need for multiple tools, (6) Focus on sustainable growth and customer retention over rapid scaling. Jane emphasizes being a \"delightful\" employee that becomes part of the practice team.",
+  "target_customers": [
+    "Physical therapists and physiotherapists",
+    "Massage therapists",
+    "Chiropractors",
+    "Occupational therapists",
+    "Mental health counselors and therapists",
+    "Acupuncturists",
+    "Osteopaths",
+    "Dietitians and nutritionists",
+    "Midwives",
+    "Athletic therapists",
+    "Multi-disciplinary wellness clinics",
+    "Solo practitioners through enterprise/chain practices",
+    "Practices seeking to replace legacy systems like Practice Perfect"
+  ],
+  "products_and_services": [
+    {
+      "finding": "Core practice management platform with online booking, scheduling, charting, billing, and telehealth in a single integrated system",
+      "source_url": "https://jane.app/features",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Balance Plan - Entry-level plan at $54/month USD for single practitioner with up to 20 appointments per month",
+      "source_url": "https://jane.app/pricing",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Practice Plan - Full-usage plan at $79/month USD base plus per-practitioner fees, includes unlimited appointments",
+      "source_url": "https://jane.app/pricing",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Thrive Plan - Advanced plan at $99/month USD base with enhanced features including rooms & equipment management, waitlist automation, packages & memberships",
+      "source_url": "https://jane.app/pricing",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "AI Scribe (add-on) - AI-powered clinical documentation with 5 free notes/month or unlimited for $15/month per practitioner",
+      "source_url": "https://jane.app/features/charting-ai-scribe",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Insurance Billing (add-on) - US insurance billing features available as paid add-on with Claim.MD clearinghouse integration",
+      "source_url": "https://jane.app/features/billing-and-insurance",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Group Telehealth (add-on) - Virtual group sessions for up to 15 participants, available as paid add-on",
+      "source_url": "https://jane.app/pricing",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Jane for Clients Mobile App - Patient-facing mobile app for consolidated booking across multiple Jane practices (available in Canada, expanding to US)",
+      "source_url": "https://jane.app/guide/a-message-from-ali-on-jane-s-mobile-app-for-clients",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Jane Websites - Website building service for clinics",
+      "source_url": "https://integrations.jane.app/",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Virtual Assistants & Receptionists - Admin and front desk services from real people trained in clinic workflows",
+      "source_url": "https://jane.app/features/admin-and-receptionists",
+      "evidence_status": "verified"
+    }
+  ],
+  "pricing": [
+    {
+      "finding": "Balance Plan: $54/month USD - Single practitioner profile, limited to 20 appointments/month, includes core features and 5 free AI Scribe notes",
+      "source_url": "https://jane.app/pricing",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Practice Plan: $79/month USD base + $17.50/month per part-time practitioner (under 24 booked hours/week) + $35/month per full-time practitioner (24+ booked hours/week)",
+      "source_url": "https://jane.app/pricing",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Thrive Plan: $99/month USD base + $20/month per part-time practitioner + $40/month per full-time practitioner, includes advanced scheduling and marketing features",
+      "source_url": "https://jane.app/pricing",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "All plans include unlimited admins and locations at no additional cost",
+      "source_url": "https://jane.app/pricing",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "AI Scribe add-on: 5 notes/month free, or Unlimited for $15/month per practitioner (pricing varies by region)",
+      "source_url": "https://jane.app/guide/ai-scribe",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Insurance Billing add-on: Available as paid add-on to Practice or Thrive plans (specific pricing not publicly documented)",
+      "source_url": "https://jane.app/pricing",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Group Telehealth add-on: Available as paid add-on (specific pricing not publicly documented)",
+      "source_url": "https://jane.app/pricing",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Jane Payments processing fees: 2.5% (Canada) or 2.6% + $0.10 (US) for in-person card-present transactions; 2.75% (Canada) or 2.85% + $0.25 (US) for online card-not-present transactions; Interac Debit $0.10 (Canada only)",
+      "source_url": "https://jane.app/features/jane-payments",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Free data import and complimentary account setup call included with all plans",
+      "source_url": "https://jane.app/pricing",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Unlimited SMS appointment reminders included (availability varies by region)",
+      "source_url": "https://jane.app/pricing",
+      "evidence_status": "verified"
+    }
+  ],
+  "core_capabilities": [
+    {
+      "finding": "Online Booking: Custom-branded booking pages, treatment choices, provider selection, 1:1 appointments, group appointments, and classes",
+      "source_url": "https://jane.app/features/online-booking",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Scheduling: Real-time schedule management, staff scheduling, appointment types, rooms and equipment tracking (Thrive plan), availability tagging (Thrive plan)",
+      "source_url": "https://jane.app/features/scheduling",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Clinical Documentation: Custom charting templates, SOAP notes, treatment plans, outcome measure surveys, charts organized across visits and teams",
+      "source_url": "https://jane.app/features/clinical-documentation",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Intake Forms: Online patient intake forms with custom fields, insurance card upload capability, collect information before appointments",
+      "source_url": "https://jane.app/features/intake-forms",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Client Portal: Patients can book appointments, complete forms, view invoices and receipts, access documentation (with permissions), manage their profile",
+      "source_url": "https://jane.app/",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Telehealth (1:1): HIPAA, PIPEDA, and GDPR-compliant video appointments included in all plans at no extra cost, integrated with schedule and charting",
+      "source_url": "https://jane.app/features/telehealth",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Telehealth features: Virtual backgrounds, in-call chat, screen sharing, audio/video controls (recording not supported)",
+      "source_url": "https://jane.app/guide/category/telehealth",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Invoicing & Billing: Automatic invoice generation, superbills, CMS-1500 forms, receipts, email and SMS payment requests, gift cards",
+      "source_url": "https://jane.app/pricing",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Jane Payments: Integrated payment processing via Stripe partnership, online payments, terminal for in-person payments, ability to save cards on file",
+      "source_url": "https://jane.app/features/jane-payments",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Payment methods supported: Visa, Mastercard, Amex, Discover, Diners Club, UnionPay, Apple Pay, Google Pay; Interac Debit in Canada",
+      "source_url": "https://jane.app/guide/jane-payments-faq",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Patient Communications: Automated appointment reminders (email/SMS), confirmation emails, email payment requests, secure messaging",
+      "source_url": "https://jane.app/features",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Return Visit Reminders: Automated patient retention tool (Thrive plan only)",
+      "source_url": "https://jane.app/pricing",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Packages & Memberships: Patient retention feature for bundled services (Thrive plan only)",
+      "source_url": "https://jane.app/pricing",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Patient Self Check-In: In-person self check-in functionality (Thrive plan only)",
+      "source_url": "https://jane.app/pricing",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Automated Waitlist Management: Automated patient waitlist features (Thrive plan only)",
+      "source_url": "https://jane.app/pricing",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Reporting: Hours booked/scheduled reports, accounts receivable, revenue reports, financial tracking (specific reporting capabilities not extensively documented)",
+      "source_url": "https://jane.app/guide/room-booking",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Timesheets: Staff timesheet functionality included in Practice and Thrive plans",
+      "source_url": "https://jane.app/pricing",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Ratings & Reviews: Patient ratings and reviews collection (Thrive plan only)",
+      "source_url": "https://jane.app/pricing",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Google Analytics Integration: Marketing analytics integration (Thrive plan only)",
+      "source_url": "https://jane.app/pricing",
+      "evidence_status": "verified"
+    }
+  ],
+  "group_practice_capabilities": [
+    {
+      "finding": "Multi-clinician support: Unlimited staff profiles on Practice and Thrive plans (Balance plan limited to single practitioner)",
+      "source_url": "https://jane.app/pricing",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Unlimited administrators and locations included at no additional cost on all full-usage plans",
+      "source_url": "https://jane.app/pricing",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Staff access levels: Full Access, Front Desk, and Practitioner permission levels for role-based access control",
+      "source_url": "https://jane.app/guide/ai-scribe",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Multi-location support: Can manage multiple physical locations with location-based scheduling, filtering, and data management",
+      "source_url": "https://jane.app/guide/adding-a-location",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Location management: Set primary location, reorder locations, filter by location for reporting and scheduling",
+      "source_url": "https://jane.app/guide/multiple-locations-or-multiple-accounts-how-to-set-up-jane-for-independent-locations-or-practitioners",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Shared client database: All locations share same client list and data within single account (practitioners can filter/export by practitioner)",
+      "source_url": "https://jane.app/guide/multiple-locations-or-multiple-accounts-how-to-set-up-jane-for-independent-locations-or-practitioners",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Schedule display for many practitioners: Interface designed to handle scheduling view for large practitioner teams",
+      "source_url": "https://jane.app/video/scheduling-managing-the-schedule-with-many-practitioners",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Rooms & Equipment: Resource management for shared treatment rooms and equipment (Thrive plan feature)",
+      "source_url": "https://jane.app/pricing",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Part-time vs Full-time practitioner pricing: Differentiated pricing based on 24 booked hours/week threshold",
+      "source_url": "https://jane.app/pricing",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Group reporting: Can filter and export data by practitioner, though some reviews note AR reporting could be improved for larger groups with 5+ clinics",
+      "source_url": "https://www.softwareadvice.com/product/86099-Jane-App/reviews/",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Practitioner-specific access: Each practitioner can view only their own ratings and feedback (Front Desk staff view only theirs as well)",
+      "source_url": "https://jane.app/guide/ratings-reviews-faqs",
+      "evidence_status": "verified"
+    }
+  ],
+  "billing_and_insurance": [
+    {
+      "finding": "US Insurance Billing: Available as paid add-on to Practice or Thrive plans, integrates with Claim.MD clearinghouse",
+      "source_url": "https://jane.app/features/billing-and-insurance",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Pre-appointment policy collection: Insurance card upload field on online intake forms",
+      "source_url": "https://jane.app/features/billing-and-insurance",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Real-time eligibility checks: Check patient insurance eligibility through Claim.MD integration before appointments",
+      "source_url": "https://jane.app/guide/jane-s-clearinghouse-integration",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Claims submission: Manage primary and secondary insurance claims directly within Jane",
+      "source_url": "https://jane.app/features/billing-and-insurance",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Secondary claims automation: Jane pre-populates secondary claims with primary insurance responses",
+      "source_url": "https://jane.app/features/billing-and-insurance",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Claim validation: Claim.MD checks every claim for errors before sending to payers",
+      "source_url": "https://jane.app/features/billing-and-insurance",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "ERA/EOB processing: Receive electronic remittance advices (ERAs) and post payments within Jane",
+      "source_url": "https://jane.app/pricing",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Revenue cycle management: Full insurance billing flow from eligibility through payment collection managed in Jane",
+      "source_url": "https://jane.app/features/billing-and-insurance",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Balance collection: Automatically request payment for remaining patient balances after insurance claims settle",
+      "source_url": "https://jane.app/features/billing-and-insurance",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "EDI file generation: Can generate EDI text files for submission to Office Ally, Trizetto, Claim.MD, and Availity clearinghouses",
+      "source_url": "https://jane.app/guide/creating-an-edi-file-to-submit-to-a-clearinghouse",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "CMS-1500 forms: Generate CMS-1500 insurance claim forms",
+      "source_url": "https://jane.app/guide/insurance-claims-the-cms1500",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Superbills: Generate superbills for patient self-submission to insurance",
+      "source_url": "https://jane.app/pricing",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Clearinghouse integration: Primary integration with Claim.MD; separate clearinghouse account required (not included in Jane subscription)",
+      "source_url": "https://jane.app/pricing",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Insurance billing limitations: Some users report challenges with Medicare and private insurance processing, with months of struggles noted in reviews",
+      "source_url": "https://www.getapp.ca/reviews/122271/jane-app",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Insurance team support: Dedicated insurance support team including specialists to assist with insurance billing questions",
+      "source_url": "https://www.softwareadvice.com/product/86099-Jane-App/reviews/",
+      "evidence_status": "verified"
+    }
+  ],
+  "ai_capabilities": [
+    {
+      "finding": "AI Scribe: Jane's first AI-powered feature for automated clinical documentation, launched to help practitioners chart faster and stay present with patients",
+      "source_url": "https://jane.app/features/charting-ai-scribe",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "AI documentation modes: Live recording during sessions or post-session dictation, both automatically transcribed and formatted",
+      "source_url": "https://jane.app/guide/ai-scribe",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "AI Scribe templates: Unlimited AI-powered templates and customizable prompts built into Jane, no additional apps required",
+      "source_url": "https://jane.app/pricing",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "AI Scribe workflow integration: Built directly into patient Chart tab, no switching tools or copy-pasting required",
+      "source_url": "https://jane.app/features/charting-ai-scribe",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "AI Scribe output: Automatically generates structured SOAP notes and detailed patient charts from recordings",
+      "source_url": "https://jane.app/blog/save-time-note-taking-with-jane",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "AI Scribe setup: No lengthy setup or training required, practitioners can start using immediately",
+      "source_url": "https://jane.app/features/charting-ai-scribe",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "AI Scribe customization: Customizable global prompts and per-practitioner prompt settings to guide AI output",
+      "source_url": "https://jane.app/guide/ai-scribe",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "AI Scribe control: Full practitioner review and control over AI-generated notes before signing",
+      "source_url": "https://jane.app/features/clinical-documentation",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "AI Scribe availability: Available in US, Canada, UK and additional regions (pricing varies by region)",
+      "source_url": "https://jane.app/guide/ai-scribe",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "AI Scribe pricing tiers: 5 free notes/month included with all plans, or unlimited notes for $15/month per practitioner add-on",
+      "source_url": "https://jane.app/pricing",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Other AI capabilities: No publicly documented agentic AI, AI assistants, or AI automation beyond clinical documentation",
+      "source_url": null,
+      "evidence_status": "not_publicly_documented"
+    }
+  ],
+  "integrations": [
+    {
+      "finding": "Jane Integrations: Official, approval-based API partner program (not an open API for anyone to use)",
+      "source_url": "https://jane.app/blog/jane-integrations-our-program-our-partners-and-how-to-work-with-us",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "API access: Jane does not currently have an open API or provide API keys; no plans to make open API available",
+      "source_url": "https://jane.app/guide/integrations-hub-faq",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Integration categories: Home exercise programs, marketing & growth, payments & insurance, practice administration & operations, supplements & labs",
+      "source_url": "https://integrations.jane.app/",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Claim.MD: Primary clearinghouse integration for US insurance billing, eligibility checks, and ERAs",
+      "source_url": "https://jane.app/guide/jane-s-clearinghouse-integration",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Alternative clearinghouses: EDI file export capability for Office Ally, Trizetto, Availity (manual upload process)",
+      "source_url": "https://jane.app/guide/creating-an-edi-file-to-submit-to-a-clearinghouse",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Payment integrations: Native Jane Payments via Stripe partnership; Helcim Payment Extension available as alternative",
+      "source_url": "https://integrations.jane.app/",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Home exercise program integrations: Physitrack integration for exercise prescription and patient engagement",
+      "source_url": "https://integrations.jane.app/",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Supplements & labs integrations: Fullscript (supplements), VitaminLab",
+      "source_url": "https://integrations.jane.app/",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Marketing integrations: Google Tag Manager, CyberImpact (email marketing), Google Analytics",
+      "source_url": "https://integrations.jane.app/",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Communications integrations: Mango Voice (phone system), TrustDrivenCare (reputation management), Wibbi",
+      "source_url": "https://integrations.jane.app/",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Third-party automation: Limited due to closed API; some users report using tools like Zapier with workarounds, though not officially supported",
+      "source_url": "https://www.reddit.com/r/therapists/comments/1k6hxme/jane_app_and_integrationsautomation/",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Integration count: Approximately 17 integrations listed as of research date (appears to be growing library)",
+      "source_url": "https://integrations.jane.app/",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "No native accounting integrations: Users report lack of accounting software integrations (QuickBooks, Xero, etc.)",
+      "source_url": "https://www.wellnessliving.com/blog/find-out-why-jane-app-clients-are-switching-software/",
+      "evidence_status": "verified"
+    }
+  ],
+  "onboarding_and_migration": [
+    {
+      "finding": "Free data import: Complimentary data import service included with all plans",
+      "source_url": "https://jane.app/pricing",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Complimentary onboarding call: Free account setup call included with all Jane subscriptions",
+      "source_url": "https://jane.app/pricing",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Onboarding call booking: New customers can book onboarding calls with Jane team to guide setup",
+      "source_url": "https://jane.app/guide/booking-your-onboarding-call-with-the-jane-team",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Self-serve resources: Library of guides, videos, and training materials for DIY setup and learning",
+      "source_url": "https://jane.app/guide/switching-is-easy-with-jane-on-your-team",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Switching support: Dedicated resources and guidance for practices switching from other software",
+      "source_url": "https://jane.app/guide/switching-is-easy-with-jane-on-your-team",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Clearinghouse switching: Resources and checklists available for switching clearinghouses to Claim.MD",
+      "source_url": "https://jane.app/guide/switching-clearinghouses-to-claim-md",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Training approach: Unlimited customer support during setup phase; emphasis on support team helping practices through transition",
+      "source_url": "https://jane.app/guide/switching-is-easy-with-jane-on-your-team",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Migration from legacy systems: Users report successfully migrating from systems like Practice Perfect, with Jane cited as significant improvement",
+      "source_url": "https://www.softwareadvice.com/product/86099-Jane-App/reviews/",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Initial setup complexity: Some reviews note initial setup can be time-consuming and tedious to get configuration right, though support helps",
+      "source_url": "https://www.softwareadvice.com/product/86099-Jane-App/reviews/",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Dedicated implementation team: No evidence of formal dedicated implementation or project management team for enterprise deployments",
+      "source_url": null,
+      "evidence_status": "not_publicly_documented"
+    }
+  ],
+  "customer_support": [
+    {
+      "finding": "Support channels: Chat, email, and phone support available to all customers",
+      "source_url": "https://jane.app/contact",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Support hours: Available 6 days per week (specific hours not publicly documented)",
+      "source_url": "https://jane.app/guide/switching-is-easy-with-jane-on-your-team",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Unlimited human support: All plans include unlimited access to human support team at no additional cost",
+      "source_url": "https://jane.app/pricing",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Support team background: Support staff trained in clinic workflows and operations; team includes some with clinical backgrounds",
+      "source_url": "https://jane.app/features/admin-and-receptionists",
+      "evidence_status": "inferred"
+    },
+    {
+      "finding": "Support location: Support team based in Canada but serves customers worldwide",
+      "source_url": "https://jane.app/contact",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Specialized insurance support: Dedicated insurance billing support specialists available for insurance-related questions",
+      "source_url": "https://www.softwareadvice.com/product/86099-Jane-App/reviews/",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Support quality: Consistently praised in reviews as 'exceptional,' 'outstanding,' 'nothing short of exceptional' - appears to be major differentiator",
+      "source_url": "https://www.softwareadvice.com/product/86099-Jane-App/reviews/",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Proactive outreach: Company reaches out to customers after one year of use to gather feedback and troubleshoot issues (unusual in industry)",
+      "source_url": "https://www.softwareadvice.com/product/86099-Jane-App/reviews/",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Knowledge base: Comprehensive Jane Guide with articles, videos, and tutorials available at jane.app/guide",
+      "source_url": "https://jane.app/guide",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Demo availability: Sales demos available for prospects to learn about the platform",
+      "source_url": "https://jane.app/demo",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Patient support limitations: Support team cannot manage patient bookings/profiles or provide clinic-specific information on behalf of practices",
+      "source_url": "https://www.trustpilot.com/review/jane.app",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Some reviews note customer support can be slow at times, though this appears to be minority feedback",
+      "source_url": "https://www.medesk.net/en/blog/jane-app-review/",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "No dedicated account management: No evidence of dedicated account managers for enterprise customers",
+      "source_url": null,
+      "evidence_status": "not_publicly_documented"
+    }
+  ],
+  "strengths": [
+    {
+      "finding": "Exceptional customer support: Consistently praised across reviews as outstanding, with 6-day availability and unlimited access included",
+      "source_url": "https://www.softwareadvice.com/product/86099-Jane-App/reviews/",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Beautiful, intuitive design: User interface consistently described as attractive, easy to use, and intuitive for both staff and patients",
+      "source_url": "https://www.softwareadvice.com/product/86099-Jane-App/reviews/",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Multi-disciplinary flexibility: Strong positioning for clinics with multiple specialties (PT, massage, chiro, counseling, etc.) in one practice",
+      "source_url": "https://www.proactivechart.com/resources/jane-app-vs-proactive-chart/",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "All-in-one platform: Comprehensive solution eliminating need for multiple tools - scheduling, charting, billing, telehealth, payments integrated",
+      "source_url": "https://jane.app/features",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Strong brand and customer loyalty: 8+ year employee retention, customers saying 'will never use another software,' 'couldn't live without it'",
+      "source_url": "https://www.trustpilot.com/review/jane.app",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Profitable, sustainable growth model: Company has been profitable every month since inception, creating long-term stability",
+      "source_url": "https://markmacleod.me/jane-apps-alison-taylor-on-building-a-600-person-profitable-healthcare-company-without-venture-capital/",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Low customer churn: Company prioritizes retention over acquisition, leading to stable customer base",
+      "source_url": "https://markmacleod.me/jane-apps-alison-taylor-on-building-a-600-person-profitable-healthcare-company-without-venture-capital/",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Unlimited locations and admins: No additional cost for multiple locations or administrative users, strong value proposition for growing practices",
+      "source_url": "https://jane.app/pricing",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Free SMS reminders: Unlimited SMS appointment reminders included (varies by region) - significant cost savings versus competitors",
+      "source_url": "https://jane.app/pricing",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Online booking excellence: Highly praised patient-facing online booking experience, major lead generation tool for practices",
+      "source_url": "https://jane.app/features/online-booking",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Telehealth included: 1:1 telehealth included in all plans at no additional cost (HIPAA/PIPEDA compliant)",
+      "source_url": "https://jane.app/features/telehealth",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Integrated AI documentation: AI Scribe built directly into charting workflow, no separate tools needed, 5 free notes/month",
+      "source_url": "https://jane.app/features/charting-ai-scribe",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Strong company culture and values: Clear mission ('Helping the Helpers'), values-driven culture attracts both employees and customers",
+      "source_url": "https://jane.app/about",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Solo to enterprise scalability: Serves solo practitioners through multi-location enterprises with same platform",
+      "source_url": "https://jane.app/blog/who-s-using-jane",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Patient mobile app: Jane for Clients app consolidates appointments across multiple Jane practices, improving patient experience",
+      "source_url": "https://jane.app/guide/a-message-from-ali-on-jane-s-mobile-app-for-clients",
+      "evidence_status": "verified"
+    }
+  ],
+  "limitations": [
+    {
+      "finding": "No open API: Jane does not provide open API or API keys, limiting custom integrations and automation capabilities",
+      "source_url": "https://jane.app/guide/integrations-hub-faq",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Limited accounting integrations: No native integrations with QuickBooks, Xero, or other accounting software",
+      "source_url": "https://www.wellnessliving.com/blog/find-out-why-jane-app-clients-are-switching-software/",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Insurance billing challenges: Some US customers report significant struggles with Medicare and private insurance processing, months-long issues",
+      "source_url": "https://www.getapp.ca/reviews/122271/jane-app",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Separate patient accounts per practice: Patients need separate login credentials for each Jane practice they visit, creating friction (mobile app partially addresses this)",
+      "source_url": "https://www.trustpilot.com/review/jane.app",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Patient portal limitations: Patients cannot upload documents themselves (must email to staff for upload), limited self-service capabilities",
+      "source_url": "https://www.trustpilot.com/review/jane.app",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "No automatic document upload notifications: When documents are uploaded to patient files, notifications are not automatically sent",
+      "source_url": "https://www.trustpilot.com/review/jane.app",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Mobile app limitations: Mobile/tablet experience not as robust as desktop; some users report glitches and functionality issues",
+      "source_url": "https://www.softwareadvice.com/product/86099-Jane-App/reviews/",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Initial setup complexity: Some users report setup is time-consuming and tedious to configure properly, though support helps",
+      "source_url": "https://www.softwareadvice.com/product/86099-Jane-App/reviews/",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Reporting limitations: Some reports not geared toward larger groups (5+ clinics); AR report navigation difficult; graphical reporting limited",
+      "source_url": "https://www.medesk.net/en/blog/jane-app-review/",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Customization limitations: Some users note limited customization options for certain features",
+      "source_url": "https://www.medesk.net/en/blog/jane-app-review/",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "No credit card surcharging: Jane Payments does not support passing credit card processing fees to patients",
+      "source_url": "https://www.helcim.com/guides/reduce-jane-payment-processing-fees/",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Higher processing fees: Jane Payments fees (2.5-2.85%) higher than some alternatives; uses Stripe, cannot switch processors",
+      "source_url": "https://www.helcim.com/guides/reduce-jane-payment-processing-fees/",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Superbill complexity: Some users note sending superbills can be complicated depending on pricing model",
+      "source_url": "https://www.softwareadvice.com/product/86099-Jane-App/reviews/",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Billing statements: Insurance billing statements need improvement for insured patients according to user feedback",
+      "source_url": "https://www.softwareadvice.com/product/86099-Jane-App/reviews/",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "High-volume limitations: One user reported Jane can get 'clunky' after 120 visits per week in high-volume chiropractic settings",
+      "source_url": "https://www.reddit.com/r/Chiropractic/comments/1ucob4b/jane_app_or_other_1stop_shops/",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Login/authentication issues: Some patients report problems with password reset verification codes not arriving",
+      "source_url": "https://www.trustpilot.com/review/jane.app",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Google/Apple login duplication: If patients sign in via Google/Apple instead of username, can create duplicate accounts without carrying over history",
+      "source_url": "https://www.softwareadvice.com/product/86099-Jane-App/reviews/",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Telehealth technical issues: Some users report missing sound/video, screen blinking during virtual appointments",
+      "source_url": "https://www.softwareadvice.com/product/86099-Jane-App/reviews/",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "No telehealth recording: Video, audio, and chat cannot be recorded during telehealth sessions in Jane",
+      "source_url": "https://jane.app/guide/category/telehealth",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Patient mobile app limited availability: Jane for Clients mobile app fully released in Canada only, US/rest of world still in progress",
+      "source_url": "https://jane.app/guide/a-message-from-ali-on-jane-s-mobile-app-for-clients",
+      "evidence_status": "verified"
+    },
+    {
+      "finding": "Interface complexity: Some users note the interface has 'lots of functions' which can feel complicated",
+      "source_url": "https://www.medesk.net/en/blog/jane-app-review/",
+      "evidence_status": "verified"
+    }
+  ],
+  "researched_at": "2026-08-20T14:20:24.432796",
+  "sources": [
+    "https://jane.app/",
+    "https://jane.app/pricing",
+    "https://jane.app/features",
+    "https://jane.app/about",
+    "https://jane.app/story",
+    "https://jane.app/features/online-booking",
+    "https://jane.app/features/scheduling",
+    "https://jane.app/features/clinical-documentation",
+    "https://jane.app/features/charting-ai-scribe",
+    "https://jane.app/features/telehealth",
+    "https://jane.app/features/billing-and-insurance",
+    "https://jane.app/features/jane-payments",
+    "https://jane.app/contact",
+    "https://integrations.jane.app/",
+    "https://jane.app/guide/ai-scribe",
+    "https://jane.app/guide/jane-s-clearinghouse-integration",
+    "https://jane.app/guide/switching-is-easy-with-jane-on-your-team",
+    "https://jane.app/guide/a-message-from-ali-on-jane-s-mobile-app-for-clients",
+    "https://jane.app/blog/who-s-using-jane",
+    "https://www.softwareadvice.com/product/86099-Jane-App/reviews/",
+    "https://www.trustpilot.com/review/jane.app",
+    "https://www.medesk.net/en/blog/jane-app-review/",
+    "https://markmacleod.me/jane-apps-alison-taylor-on-building-a-600-person-profitable-healthcare-company-without-venture-capital/",
+    "https://ca.linkedin.com/company/janerunsclinics",
+    "https://www.zoominfo.com/c/jane-software-inc/410700903"
+  ]
+}
