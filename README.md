@@ -1,4 +1,4 @@
-# Sales Competitive Intelligence Engine 🔎
+# Sales Competitive Intelligence Engine
 
 An AI-powered competitive research tool built to help Sales teams quickly understand competitors, keep competitive intel fresh, and eventually give Sales agents a reliable source of competitive context.
 
@@ -74,7 +74,7 @@ This keeps the expensive/deeper research separate from the ways Sales might want
 
 ## Current Capabilities
 
-### 🔎 Competitor Research
+### Competitor Research
 
 Run research for a configured competitor:
 
@@ -144,7 +144,7 @@ Research can happen independently of the workflows that use the research.
 
 ---
 
-## What's Next 08/21/2026
+## What's Next 08/20/2026
 
 The next phase is focused on making the intelligence layer persistent and reliably fresh:
 
