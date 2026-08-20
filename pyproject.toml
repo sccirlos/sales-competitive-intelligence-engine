@@ -1,0 +1,13 @@
+[project]
+name = "sales-competitive-intelligence-engine"
+version = "0.1.0"
+description = "AI-powered competitive intelligence research and sales enablement engine."
+readme = "README.md"
+requires-python = ">=3.13"
+
+dependencies = [
+    "firecrawl-py>=4.12.0",
+    "pandas>=2.3.3",
+    "python-dotenv>=1.2.1",
+    "tabulate>=0.9.0",
+]
